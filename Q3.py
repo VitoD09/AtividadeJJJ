@@ -1,6 +1,5 @@
 arquivo = "alunos.txt"
 
-# Cadastrar alunos
 quantidade = int(input("Quantos alunos? "))
 
 with open(arquivo, "a") as f:
@@ -10,7 +9,7 @@ with open(arquivo, "a") as f:
 
 print("Alunos salvos!")
 
-# Procurar aluno
+
 with open(arquivo, "r") as f:
     alunos = f.readlines()
 
