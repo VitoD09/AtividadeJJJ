@@ -1,6 +1,7 @@
-identificador = input("Digite o identificador: ")
+nota1 = float(input("Digite a primeira nota: "))
+nota2 = float(input("Digite a segunda nota: "))
+nota3 = float(input("Digite a terceira nota: "))
 
-if len(identificador) == 11 and identificador.isdigit():
-    print("Identificador válido")
-else:
-    print("Identificador inválido")
+media = (nota1 + nota2 + nota3) / 3
+
+print("Média:", media)
